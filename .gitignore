@@ -1,0 +1,87 @@
+# Python项目通用.gitignore
+
+# Python字节码
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 翻译
+*.mo
+*.pot
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# 环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# 项目特定
+*.iml
+*.db
+*.sqlite
+logs/
+data/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db 

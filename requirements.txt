@@ -1,0 +1,8 @@
+pandas==2.1.0
+numpy==1.25.2
+psycopg2-binary==2.9.9
+matplotlib==3.7.2
+seaborn==0.12.2
+sqlalchemy==2.0.20
+flask==2.0.1
+werkzeug==2.0.0 
